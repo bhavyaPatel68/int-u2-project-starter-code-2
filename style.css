@@ -126,6 +126,10 @@ p {
     margin-right: 75px;
     margin-top: 20px;
 }
+.help-image:hover {
+    transform: rotate(360deg);
+    transition: transform 1s ease;
+}
 hr {
   border: none;
   height: 5px;
@@ -143,6 +147,13 @@ hr {
     margin-bottom: 20px;
 }
 .section3{
-    margin-right:8px;
-    max-width: 34%;
+    margin-left: 8px;
+    margin-right:20px;
+    max-width: 30%;
+}
+.section-paragraph {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
