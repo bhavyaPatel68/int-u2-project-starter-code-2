@@ -34,6 +34,7 @@ h2 {
 }
 body {
     background-color: #c4e3ff;
+    margin: 0;
 }
 
 .section1-image {
@@ -87,4 +88,45 @@ p {
     text-align: center;
     font-size: 15px;
     font-family: 'Manrope', sans-serif;
+}
+
+.help-section {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 24px 10px;
+}
+.help-list-wrapper {
+    flex: 1 1 320px;
+    min-width: 260px;
+}
+.help-list {
+    text-align: left;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+.help-paragraph {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+.help-image {
+    flex: 0 0 380px;
+    max-width: 100%;
+    width: 380px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0;
+    align-self: flex-start;
+    margin-right: 75px;
+}
+hr {
+    border: none;
+    border-top: 2px solid #000;
+    margin: 20px 0;
+    height: 5px;
 }
