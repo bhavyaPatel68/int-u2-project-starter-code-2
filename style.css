@@ -20,6 +20,9 @@ h2 {
 .section-container {
     display:flex;
     justify-content:space-between;
+    align-items:stretch;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
@@ -27,6 +30,11 @@ h2 {
     border: 5px #1f3b4d solid;
     margin:5px;
     border-radius: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+    flex: 1 1 30%;
+    min-width: 260px;
+    min-height: 520px;
 }
 .banner-image {
     border-radius: 25px;
@@ -39,18 +47,12 @@ body {
 
 .section1-image {
     border-radius: 25px;
-    width: 75%;
+    width: 500px;
     height :auto;
-    margin-bottom: 10px;
 }
 .section2-image {
     border-radius: 25px;
-    width: 75%;
-    height :auto;
-}
-.section3-image {
-    border-radius: 25px;
-    width: 75%;
+    width: 500px;
     height :auto;
 }
 .section img {
@@ -147,9 +149,11 @@ hr {
     margin-bottom: 20px;
 }
 .section3{
-    margin-left: 8px;
-    margin-right:20px;
-    max-width: 30%;
+    border: 5px #1f3b4d solid;
+    margin-left:300px;
+    margin-right:300px;
+    border-radius: 10px;
+    padding: 16px;
 }
 .section-paragraph {
     text-align: center;
